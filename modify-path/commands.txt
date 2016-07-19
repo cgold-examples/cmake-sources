@@ -1,0 +1,2 @@
+rm -rf _builds
+cmake -Hmodify-path -B_builds "-DCMAKE_MODULE_PATH=`pwd`/modify-path/standard"

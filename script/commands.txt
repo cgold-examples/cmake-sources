@@ -1,0 +1,4 @@
+rm -f Hello.txt
+cmake -P script/create-file.cmake
+ls Hello.txt
+cat Hello.txt
