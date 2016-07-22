@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(foo LANGUAGES NONE)
+project(foo NONE)
 
 set(dir_to_remove "${CMAKE_CURRENT_BINARY_DIR}/__temp")
 
